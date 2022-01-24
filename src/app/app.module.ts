@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 
 // const config: SocketIoConfig = { url: 'http://localhost:8000', options: {} };
+// const config: SocketIoConfig = { url: 'http://127.0.0.1:58260/', options: {} }; // Docker
 const config: SocketIoConfig = { url: 'https://damp-taiga-68315.herokuapp.com', options: {} };
 // const config: SocketIoConfig = { url: '192.168.100.2:8000', options: {} };
 // const config: SocketIoConfig = { url: '192.168.187.36:8000', options: {} };
